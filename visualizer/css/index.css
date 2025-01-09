@@ -1,0 +1,34 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+#chart {
+  position: relative;
+  /* ...otros estilos... */
+}
+
+#controls {
+  width: 200px; /* O el ancho que prefieras */
+}
+
+#zoom-slider {
+  width: 100%;
+}
+
+#tooltip {
+  position: absolute;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.75); /* Fondo semi-transparente negro */
+  color: #fff; /* Texto blanco para contraste */
+  padding: 8px 12px;
+  border-radius: 4px; /* Esquinas redondeadas */
+  border: 1px solid #ddd; /* Borde sutil */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombras suaves */
+  font-size: 0.9rem; /* Tamaño de fuente */
+  font-family: Arial, sans-serif; /* Familia de fuentes */
+  z-index: 1000; /* Asegurarse de que el tooltip esté por encima de otros elementos */
+}
+
+.area {
+  transition: opacity 0.3s, stroke-width 0.3s;
+}
