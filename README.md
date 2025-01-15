@@ -14,3 +14,4 @@ Este proyecto integra simulaciones realizadas en NetLogo con un servidor WebSock
    ```bash
    git clone https://github.com/usuario/proyecto-websocket-netlogo.git
    cd proyecto-websocket-netlogo
+ 
